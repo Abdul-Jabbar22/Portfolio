@@ -9,7 +9,7 @@ const projects = [
     title: "Furniture Store",
     tech: "PHP, MySQL",
     description: "An e-commerce platform for furniture sales with backend admin control.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "fyp.jpeg",
     links: {
       demo: "#",
       github: "#",
@@ -19,7 +19,7 @@ const projects = [
     title: "Book Store",
     tech: "MERN Stack",
     description: "A full-stack web app for browsing, adding, and buying books online.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "mern.png",
     links: {
       demo: "#",
       github: "#",
@@ -29,7 +29,17 @@ const projects = [
     title: "E-Commerce Store",
     tech: "React.js",
     description: "A front-end only product browsing experience built with React.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "ecommerce.png",
+    links: {
+      demo: "#",
+      github: "#",
+    },
+  },
+  {
+    title: "Porfolio Website",
+    tech: "React.js",
+    description: "A front-end only product browsing experience built with React.",
+    image: "portfolio.png",
     links: {
       demo: "#",
       github: "#",
