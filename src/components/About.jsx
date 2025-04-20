@@ -4,8 +4,7 @@ import Resume from "./Resume"
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-6 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green-900/20 via-black to-black z-0"></div>
+    <section  className="py-20 px-6 relative overflow-hidden">
 
       <div className="max-w-4xl mx-auto relative z-10">
         <div className="flex items-center gap-3 mb-8">

@@ -77,7 +77,7 @@ const Hero = () => {
       <canvas ref={canvasRef} className="absolute inset-0 z-0" />
 
       <div className="relative z-10 container mx-auto px-6">
-        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8">
           {/* Text Content */}
           <div className="lg:w-1/2 text-center lg:text-left">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-900/30 text-green-300 border border-green-400/30 hover:bg-green-800/50 transition">

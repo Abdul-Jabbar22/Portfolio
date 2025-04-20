@@ -32,6 +32,7 @@ const skills = [
   { name: "WordPress", category: "tools", level: 75, icon: "/skills/wordpress.png" },
   { name: "Jest", category: "tools", level: 60, icon: "/skills/jest.png" },
   { name: "Jira", category: "tools", level: 65, icon: "/skills/jira.png" },
+  { name: "postman", category: "tools", level: 65, icon: "/skills/postman.png" },
   { name: "ShadCN/UI", category: "tools", level: 70, icon: "/skills/shadcn_ui.png" },
   { name: "npm", category: "tools", level: 80, icon: "/skills/npm.png" },
 ]
