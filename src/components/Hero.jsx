@@ -10,6 +10,7 @@ import React from "react";
 
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import Resume from "./Resume";
 
 const Hero = () => {
   const canvasRef = useRef(null);
@@ -76,7 +77,7 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center text-center">
       <canvas ref={canvasRef} className="absolute inset-0 z-0" />
 
-      <div className="relative z-10 container mx-auto px-6">
+      <div className="backdrop-blur-sm bg-black/30 border border-green-500/20 rounded-xl p-18 mt-6  shadow-[0_0_15px_rgba(0,255,0,0.1)]">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8">
           {/* Text Content */}
           <div className="lg:w-1/2 text-center lg:text-left">
@@ -154,6 +155,7 @@ const Hero = () => {
                 <span className=" sr-only">WhatsApp</span>
               </a>
             </div>
+            <Resume />
           </div>
 
           {/* Image on the Right */}
