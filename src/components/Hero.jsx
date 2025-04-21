@@ -162,7 +162,7 @@ const Hero = () => {
             <img
               src="/profile.png"
               alt="Abdul Jabbar"
-              className="relative  md:w-75 md:h-75 lg:w-75 lg:h-75 rounded-full border-2 border-green-400 p-1 bg-black"
+              className="relative w-38 h-38 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-60 lg:h-60 rounded-full border-2 border-green-400 p-1 bg-black"
             />
           </div>
         </div>
