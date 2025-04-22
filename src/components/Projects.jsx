@@ -16,6 +16,16 @@ const projects = [
     },
   },
   {
+    title: "Job Portal ",
+    tech: "MERN Stack ",
+    description: "A Job website where Employer can pot job and Job-seeker can Apply for Jobs.",
+    image: "mr.png",
+    links: {
+      demo: "#",
+      github: "#",
+    },
+  },
+  {
     title: "Book Store",
     tech: "MERN Stack",
     description: "A full-stack web app for browsing, adding, and buying books online.",
