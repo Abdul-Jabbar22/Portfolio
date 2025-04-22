@@ -19,7 +19,7 @@ const projects = [
     title: "Job Portal ",
     tech: "MERN Stack ",
     description: "A Job website where Employer can pot job and Job-seeker can Apply for Jobs.",
-    image: "mr.png",
+    image: "job.png",
     links: {
       demo: "#",
       github: "#",
