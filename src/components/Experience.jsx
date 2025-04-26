@@ -11,7 +11,7 @@ const experiences = [
   },
   {
     company: "Future Dev Solutions",
-    position: "Developer",
+    position: "Web Developer Internship",
     period: "Sep 2024 to Oct 2024",
     description: "Worked with Next.js on dynamic web applications.",
     skills: ["Next.js", "React", "JavaScript"],
