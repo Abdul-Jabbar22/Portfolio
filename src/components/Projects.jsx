@@ -10,10 +10,7 @@ const projects = [
     tech: "PHP, MySQL",
     description: "An e-commerce platform for furniture sales with backend admin control.",
     image: "fyp.jpeg",
-    links: {
-      demo: "#",
-      github: "#",
-    },
+  
   },
   {
     title: "Job Portal ",
@@ -21,8 +18,8 @@ const projects = [
     description: "A Job website where Employer can pot job and Job-seeker can Apply for Jobs.",
     image: "job.png",
     links: {
-      demo: "#",
-      github: "#",
+      // demo: "#",
+      github: "https://github.com/Abdul-Jabbar22/mern_job_portal",
     },
   },
   {
@@ -31,8 +28,8 @@ const projects = [
     description: "A full-stack web app for browsing, adding, and buying books online.",
     image: "mern.png",
     links: {
-      demo: "#",
-      github: "#",
+      // demo: "#",
+      github: "https://github.com/Abdul-Jabbar22/bookStor-mern",
     },
   },
   {
@@ -41,18 +38,8 @@ const projects = [
     description: "A front-end only product browsing experience built with React.",
     image: "ecommerce.png",
     links: {
-      demo: "#",
-      github: "#",
-    },
-  },
-  {
-    title: "Porfolio Website",
-    tech: "React.js",
-    description: "A front-end only product browsing experience built with React.",
-    image: "portfolio.png",
-    links: {
-      demo: "#",
-      github: "#",
+      demo: "https://fruit-shop-im34rt4dn-abdul-jabbars-projects-6b92f8ec.vercel.app/",
+      github: "https://github.com/Abdul-Jabbar22/Fruit_Shop",
     },
   },
 ]
@@ -68,7 +55,7 @@ const Projects = () => {
         <div className="flex items-center gap-3 mb-12">
           <Code size={28} className="text-green-400" />
           <h2 className="text-4xl font-bold text-white">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">Projects</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">Personal Practice Projects</span>
           </h2>
         </div>
 
@@ -93,14 +80,14 @@ const Projects = () => {
                   <h3 className="text-xl font-semibold text-green-400 mb-1">{project.title}</h3>
                   <div className="flex gap-2">
                     <a
-                      href={project.links.github}
+              
                       className="text-gray-400 hover:text-white transition-colors duration-300"
                       aria-label="View GitHub repository"
                     >
                       <Github size={18} />
                     </a>
                     <a
-                      href={project.links.demo}
+           
                       className="text-gray-400 hover:text-white transition-colors duration-300"
                       aria-label="View live demo"
                     >
