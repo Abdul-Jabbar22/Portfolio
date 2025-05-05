@@ -42,6 +42,16 @@ const projects = [
       github: "https://github.com/Abdul-Jabbar22/Fruit_Shop",
     },
   },
+  {
+    title: "Fresh Mart",
+    tech: "Next js",
+    description: "A full stack Next js Frut Mart with Mongo db",
+    image: "fresh_mart.png",
+    links: {
+      demo: "https://fruit-shop-im34rt4dn-abdul-jabbars-projects-6b92f8ec.vercel.app/",
+      github: "https://github.com/Abdul-Jabbar22/next_fresh_mart",
+    },
+  },
 ]
 
 const Projects = () => {
