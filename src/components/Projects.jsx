@@ -5,13 +5,7 @@ import { useState } from "react"
 import { Code, ExternalLink, Github } from 'lucide-react'
 
 const projects = [
-  {
-    title: "Furniture Store",
-    tech: "PHP, MySQL",
-    description: "An e-commerce platform for furniture sales with backend admin control.",
-    image: "fyp.jpeg",
-  
-  },
+ 
   {
     title: "Job Portal ",
     tech: "MERN Stack ",
