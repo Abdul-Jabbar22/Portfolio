@@ -9,7 +9,7 @@ const projects = [
   {
     title: "Job Portal ",
     tech: "MERN Stack ",
-    description: "A Job website where Employer can pot job and Job-seeker can Apply for Jobs.",
+    description: "A Job website where Employer can pot job and Job-seeker can Apply for Jobs.Secure loggin and registeration with JWT",
     image: "job.png",
     links: {
       // demo: "#",
@@ -39,7 +39,7 @@ const projects = [
   {
     title: "Fresh Mart",
     tech: "Next js",
-    description: "A full stack Next js Frut Mart with Mongo db",
+    description: "A full stack Next js Frut Mart with Mongo db.User can add product to cart and checkout.Also register and login functionality.",
     image: "fresh_mart.png",
     links: {
       demo: "https://fruit-shop-im34rt4dn-abdul-jabbars-projects-6b92f8ec.vercel.app/",
