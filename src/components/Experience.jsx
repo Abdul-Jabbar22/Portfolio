@@ -5,7 +5,7 @@ const experiences = [
   {
     company: "Self-Learning ",
     position: "Web Developer (Self-Initiated Projects)",
-    period: "Jan 2025 to Continue",
+    period: "",
     description:
       "Over 6 months of self-driven experience where I developed multiple full-stack web applications using the MERN stack. This includes real-world projects such as a Job Portal with JWT authentication, Role-Based Access Control, Event Management System, and a Portfolio website. Focused on writing scalable code, implementing best practices, and using modern frontend/backend tools.",
     skills: [
@@ -16,7 +16,7 @@ const experiences = [
   {
     company: "Txend",
     position: "Internship – Paid",
-    period: "Nov 2024 to Jan 2025",
+    period: "",
     description:
       "3-month internship where I gained hands-on experience in React.js development and manual software testing (SQA). Contributed to a production-grade React.js project and participated in writing test cases using Jest and tracking progress with Jira.",
     skills: [
@@ -27,7 +27,7 @@ const experiences = [
   {
     company: "Future Dev Solutions",
     position: "Web Developer Internship",
-    period: "Sep 2024 to Oct 2024",
+    period: "",
     description:
       "Worked on dynamic web applications using Next.js and React.js, focusing on performance optimization and responsive UI components.",
     skills: ["Next.js", "React.js"],
@@ -35,7 +35,7 @@ const experiences = [
   {
     company: "TheWestral.com",
     position: "Order Manager",
-    period: "Sep 2023 to Sep 2024",
+    period: "",
     description: "Managed orders and operations in an e-commerce environment, ensuring timely fulfillment and smooth workflow.",
     skills: ["E-commerce", "Operations", "Management"],
   },
