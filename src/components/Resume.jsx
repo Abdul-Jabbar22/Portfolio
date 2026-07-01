@@ -15,7 +15,7 @@ const Resume = () => {
         </div>
 
         <a
-          href="/abdul_jabbar_resume.pdf"
+          // href="/abdul_jabbar_resume.pdf"
           download
           className="group relative inline-flex items-center justify-center px-8 py-4 overflow-hidden rounded-lg bg-black border border-green-500 text-green-500 shadow-md transition-all duration-500 ease-in-out hover:bg-green-500 hover:text-black"
         >
